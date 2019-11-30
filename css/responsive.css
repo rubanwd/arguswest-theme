@@ -1,0 +1,404 @@
+@media only screen and (max-width : 1280px) {
+    .ourservices-section {
+        padding: 120px 0px 20px;
+    }
+    .img-center {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        max-width: 500px;
+    }
+    .left-side .side-item:nth-child(1) {
+        margin-right: 0px;
+        margin-top: 120px;
+        margin-left: 0;
+    }
+    .left-side .side-item:nth-child(2) {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .right-side .side-item:nth-child(1) {
+        margin-left: -200px;
+        margin-top: 0;
+    }
+    .right-side .side-item:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .right-side .side-item:nth-child(3) {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .side-item-bottom {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width : 1201px) {
+    .contact-section .wpcf7-form {
+        width: 850px;
+    }
+    .top-inputs input {
+        max-width: 270px;
+    }
+}
+@media only screen and (max-width : 1150px) {
+    .ourservices-section {
+        padding: 210px 10px 100px;
+    }
+    .cont-mobile {
+        display: block;
+    }
+    .cont-desktop {
+        display: none;
+    }
+    .our-expertise {
+        padding: 50px 10px 50px;
+    }
+    .icon-item:nth-child(1) {
+        margin-top: 40px;
+    }
+    .icon-item:nth-child(2) {
+        margin-top: 40px;
+    }
+    .icon-item:nth-child(3) {
+        margin-top: 40px;
+    }
+    .img-center {
+        display: none;
+    }
+    .advantage div {
+        display:block;
+        width: auto;
+    }
+    .left-side {
+        text-align: center;
+    }
+    .left-side,
+    .right-side {
+        width: 100%;
+        max-width: 450px;
+    }
+    .advantage_row .side-item h3 {
+        margin: 20px 0;
+    }
+    .left-side .side-item:nth-child(1) {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .left-side .side-item:nth-child(2) {
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .left-side .side-item:nth-child(3) {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .left-side .side-item {
+        margin-bottom: 30px;
+    }
+    .side-item {
+        padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width : 1080px) {
+    header {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    }
+    .header-inner {
+        text-align: center;
+        position: relative;
+        top: 0;
+        background-image: none;
+        background-color: #ecf2ef;
+        min-height:90px;
+    }
+    .logo {
+        top: 20px;
+    }
+    .logo img {
+        max-width: 190px;
+    }
+    .content .page {
+        padding: 80px 20px;
+    }
+    .nav {
+        display: none;
+        border-top: none;
+        width: auto;
+        margin: 60px auto 0;
+        text-align: center;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 3px solid #113723;
+    }
+    .nav li {
+        display: block!important;
+        padding: inherit;
+        text-align: center;
+        padding: 2px 0;
+    }
+    nav ul li a {
+        border-radius: 0;
+        font-size: 22px;
+    }
+    #nav .sub-menu {
+        display: block;
+        padding: 6px 0;
+        position: static;
+        height: auto;
+        width: auto;
+        font-weight: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+    #nav .sub-menu a {
+        color: #FFDD6C;
+        font-size: 12px;
+        padding-top: 4px;
+        padding-bottom: 3px;
+    }
+    .sub-menu li ul {
+        background-color: rgba(0,0,0,1)!important;
+        width: 100%!important;
+    }
+    #nav .sub-menu li {
+        text-align: center;
+    }
+    #nav .sub-menu li a {
+        color: #ecf2ef;
+        background-color: #ecf2ef;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+    #nav .sub-menu li a:hover {
+        color: #fff;
+        background-color: #113723!important;
+    }
+    nav ul li:last-child a {
+        padding-right: 20px;
+    }
+    .main_mnu_button {
+        display: block!important;
+    }
+    header {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width : 1080px) {
+    .nav {
+        display: block!important;
+    }
+}
+@media only screen and (max-width : 980px) {
+    .footer-cols {
+        display: block;
+    }
+    .second_footer ul {
+        -moz-column-count: 1;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 20px;
+        column-count: 1;
+        column-gap: 20px;
+    }
+    .contact-section {
+        margin-bottom: -50px;
+    }
+    .footer-cols__general {
+        margin-bottom: 40px;
+    }
+    .footer-info {
+        min-height: 485px;
+        padding: 120px 40px 60px;
+    }
+    .contact-section {
+        padding: 160px 25px;
+    }
+    .contact-section .wpcf7-form {
+        width: 100%;
+        padding: 0;
+    }
+    .bottom-textares {
+        padding: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .top-inputs {
+        display: block;
+    }
+    .top-inputs span {
+        display: block;
+    }
+    .top-inputs input {
+        width: 100%;
+        max-width: 380px;
+        margin-top: 20px;
+    }
+    .top-inputs input:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .bottom-textares textarea {
+        width: 380px;
+    }
+    .all-page-content {
+        padding: 80px 20px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .home-video-title {
+        top: 20%;
+    }
+    .home-video-title h2 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .home-video-title h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .padding-responsive-center {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    footer {
+        text-align: center;
+    }
+    footer p {
+        float: none;
+    }
+
+}
+@media only screen and (max-width : 640px) {
+    .bar-resp-first,
+    .bar-resp-second {
+        display: block;
+    }
+    .header_bar {
+        width: 100%;
+        text-align: center;
+        padding: 3px 5px;
+        padding-bottom: 10px;
+    }
+    .bar_sect1, .bar_sect2, .bar_sect3 {
+        padding: 4px 0 0 0;
+    }
+
+    .left_line {
+        display: none;
+    }
+    .right_line {
+        display: none;
+    }
+    .header_bar {
+        padding-left: 0;
+    }
+    .bar_sect1,
+    .bar_sect2,
+    .bar_sect3 {
+        padding: 4px 4px 0 0;
+    }
+    .bar_sect2 {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .home-video-title {
+        top: 7%;
+    }
+    .home-video-title h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .home-video-title h4 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .home-servives #accordion .panel-body {
+        -moz-column-count: 1;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 20px;
+        column-count: 1;
+        column-gap: 20px;
+    }
+    .flip-container {
+        margin: 20px 0;
+
+    }
+    .home-flippers {
+        margin-top: -120px;
+    }
+    .home-team .carousel-inner .item img {
+        width: 100%;
+        max-width: 200px;
+        float: none;
+        margin: 20px auto 40px;
+    }
+    .our-team-page .item img {
+        width: 100%;
+        max-width: 200px;
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .home-about {
+        margin-top: -110px;
+    }
+    .logo-title {
+        font-size: 20px;
+
+    }
+    .logo-title img {
+        margin-right: 6px;
+        width: 20px;
+    }
+    .logo-title::before {
+        display: none;
+    }
+    .logo-title::after {
+        display: none;
+    }
+    .carousel-inner {
+        min-height: 380px;
+    }
+    .contact-section .wpcf7-submit {
+        width: 250px;
+        padding: 6px 0px;
+        font-size: 16px;
+    }
+    .bottom-textares textarea {
+        width: 100%;
+        max-width: 380px;
+    }
+    footer p:first-child {
+        float: none;
+        padding-top: 10px;
+
+    } 
+    footer p:last-child {
+        float: none;
+        padding: 20px 0;
+
+    }
+    .home-testimonials {
+        padding: 180px 5px 120px;
+    }
+    .image-news {
+        float: none;
+        margin-right: 0;
+    }
+}
